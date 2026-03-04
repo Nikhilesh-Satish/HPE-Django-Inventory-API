@@ -109,6 +109,9 @@ REST_FRAMEWORK={
     'rest_framework.authentication.SessionAuthentication',
     'rest_framework.authentication.BasicAuthentication',
 ],
+'DEFAULT_FILTER_BACKENDS': [
+        'rest_framework.filters.SearchFilter',
+],
 }
 
 # Internationalization
